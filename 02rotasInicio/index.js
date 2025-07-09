@@ -4,11 +4,11 @@ const server = express();
 
 server.use(express.json());
 
-let customers=[
-    {id:1,name:"dev jota01", site:"http://jota01.com"},
-    {id:2,name:"google", site:"http://google.com"},
-    {id:3,name:"uol", site:"http://uol.com.br"},
-];
+//let customers=[
+//    {id:1,name:"dev jota01", site:"http://jota01.com"},
+//    {id:2,name:"google", site:"http://google.com"},
+//    {id:3,name:"uol", site:"http://uol.com.br"},
+//];
 
 // Postman ou Insomnia.
 // criação de rotas API
